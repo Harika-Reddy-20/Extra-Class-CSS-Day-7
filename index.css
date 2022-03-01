@@ -1,0 +1,33 @@
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: red;
+    border-radius: 100%;
+    animation-name: ball;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes ball{
+    0%{
+        background-color: red;
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        background-color: aqua;
+        top: 420px;
+        left: 200px;
+    }
+    50%{
+        background-color: chartreuse;
+        top: 0px;
+        left: 400px;
+    }
+    100%{
+        background-color: darkmagenta;
+        top: 420px;
+        left: 600px;
+    }
+}
